@@ -1,0 +1,33 @@
+:root {
+    --h1: clamp(1rem, 8vw, 8rem);
+    --h2-small: clamp(2rem, 4vw, 8rem);
+    --h2: clamp(3rem, 8vw, 8rem);
+    --h3: clamp(3rem, 4vw, 5rem);
+    --h4: 2rem;
+    --h5: 2rem;
+    --p: 1rem;
+
+    --primary: #1A1A1A;
+    --accent: #FFEF9B;
+    --white: #FFFDFA;
+
+    --small-margin: 1rem;
+    --medium-margin: 3rem;
+    --large-margin: 6rem;
+
+    --gap-s:1rem;
+    --gap-m:2rem;
+    --gap-l: 3rem;
+    --gap-xl: 5rem;
+
+    --bold: 800;
+
+    --foreground: var(--accent);
+    --background: var(--primary);
+    --bar-width: 3rem;
+    --bar-height: 0.2rem;
+    --hamburger-gap: 0.7rem;
+    --hamburger-margin: 5rem;
+    --animation-timing: 200ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
