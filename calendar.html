@@ -1,96 +1,111 @@
 <!DOCTYPE html>
 <html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1A1A1A" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/variables.css" />
+    <link rel="stylesheet" href="./CSS/test.css" />
+    <link rel="icon" href="./assets/logo_tab_2.svg" />
+    <script async src="./js/script.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#1A1A1A" />
-  <title>Index</title>
-  <link rel="stylesheet" href="./CSS/reset.css" />
-  <link rel="stylesheet" href="./CSS/style.css" />
-  <link rel="stylesheet" href="./CSS/variables.css" />
-  <link rel="stylesheet" href="./CSS/test.css">
-  <link rel="icon" href="./assets/logo_tab_2.svg" />
-  <script async src="./js/script.js"></script>
-</head>
-
-<body>
-  <header>
-    <a href="/index.html">
-      <img src="./assets/logo.svg" alt="logo" />
-    </a>
-    <div class="header-buttons">
-      <a href="mailto:Mattis%20Strandbakke<mattis.stra@gmail.com>">
-        <button>Kontakt</button>
+  <body>
+    <header>
+      <a href="/index.html">
+        <img src="./assets/logo.svg" alt="logo" />
       </a>
-      <a href="/about.html">
-        <button>Om meg</button>
-      </a>
-    </div>
-    <label class="hamburger-menu">
-      <input type="checkbox" />
-    </label>
-    <aside class="sidebar">
-      <nav>
-        <ul>
-          <a href="/about.html">
-            <li>Om meg</li>
-          </a>
-          <a href="mailto:Mattis%20Strandbakke<mattis.stra@gmail.com>">
-            <li>Kontakt</li>
-          </a>
-          <div class="hamburger-img">
-            <a href="https://www.linkedin.com/in/mattis-str/" target="_blank">
-              <img src="./assets/linkedin_menu.svg" alt="linkedin logo" /></a>
-            <a href="https://github.com/mattis-str" target="_blank">
-              <img src="./assets/github_menu.svg" alt="github logo" /></a>
-          </div>
-        </ul>
-      </nav>
-    </aside>
-  </header>
-  <main>
-    <a class="back-button" href="./">
-      <img src="./assets/arrow_circle_left.svg" alt="pil som peker mot prosjektbilde" />
-      <p class="bold">Tilbake</p>
-    </a>
-
-    <section class="case-study">
-      <div class="flex-component column-reverse hidden-from-right">
-        <div>
-          <h3 class="bold">case study</h3>
-          <ul style="margin-left: 2rem">
-            <li class="bold">Skoleoppgave</li>
-            <li class="bold">Individuelt prosjekt</li>
-            <li class="bold">varighet :</li>
-            <li>6 uker</li>
-            <li class="bold">Verktøy brukt :</li>
-            <li>Figma</li>
-            <li>Photoshop</li>
-            <li>Scrum (Notion)</li>
-            <li class="bold">Lenker :</li>
-            <li>
-              <a target="_blank" href="https://github.com/mattis-str/VSCode-Tema-8">GitHub</a>
-            </li>
-            <li>
-              <a target="_blank" href="https://creative-sopapillas-0850e0.netlify.app/">Netlify</a>
-            </li>
-            <li>
-              <a target="_blank" href="https://www.figma.com/file/m7bjk04DG7okYdQ8KEXx8v/Kalender?type=design">Figma</a>
-            </li>
-          </ul>
-          <div class="cards">
-            <h3>Nøkkelord</h3>
-            <div class="card">Figma</div>
-            <div class="card">HTML / CSS</div>
-            <div class="card">Photoshop</div>
-          </div>
-        </div>
-        <img src="./calendar-assets/hero.png" alt="" />
+      <div class="header-buttons">
+        <a href="mailto:Mattis%20Strandbakke<mattis.stra@gmail.com>">
+          <button>Kontakt</button>
+        </a>
+        <a href="/about.html">
+          <button>Om meg</button>
+        </a>
       </div>
-    </section>
+      <label class="hamburger-menu">
+        <input type="checkbox" />
+      </label>
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <a href="/about.html">
+              <li>Om meg</li>
+            </a>
+            <a href="mailto:Mattis%20Strandbakke<mattis.stra@gmail.com>">
+              <li>Kontakt</li>
+            </a>
+            <div class="hamburger-img">
+              <a href="https://www.linkedin.com/in/mattis-str/" target="_blank">
+                <img src="./assets/linkedin_menu.svg" alt="linkedin logo"
+              /></a>
+              <a href="https://github.com/mattis-str" target="_blank">
+                <img src="./assets/github_menu.svg" alt="github logo"
+              /></a>
+            </div>
+          </ul>
+        </nav>
+      </aside>
+    </header>
+    <main>
+      <a class="back-button" href="./">
+        <img
+          src="./assets/arrow_circle_left.svg"
+          alt="pil som peker mot prosjektbilde"
+        />
+        <p class="bold">Tilbake</p>
+      </a>
 
-    <section>
+      <section class="case-study">
+        <div class="flex-component column-reverse hidden-from-right">
+          <div>
+            <h3 class="bold">case study</h3>
+            <ul style="margin-left: 2rem">
+              <li class="bold">Skoleoppgave</li>
+              <li class="bold">Individuelt prosjekt</li>
+              <li class="bold">varighet :</li>
+              <li>6 uker</li>
+              <li class="bold">Verktøy brukt :</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Scrum (Notion)</li>
+              <li class="bold">Lenker :</li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/mattis-str/VSCode-Tema-8"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://creative-sopapillas-0850e0.netlify.app/"
+                  >Netlify</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.figma.com/file/m7bjk04DG7okYdQ8KEXx8v/Kalender?type=design"
+                  >Figma</a
+                >
+              </li>
+            </ul>
+            <div class="cards">
+              <h3>Nøkkelord</h3>
+              <div class="card">Figma</div>
+              <div class="card">HTML / CSS</div>
+              <div class="card">Photoshop</div>
+            </div>
+          </div>
+          <img src="./calendar-assets/hero.png" alt="" />
+        </div>
+      </section>
+
       <div class="ancor">
         <div class="border"></div>
         <a>Case study</a>
@@ -109,14 +124,13 @@
           </p>
           <h3 class="bold">Problem</h3>
           <p>
-            Hvordan kan jeg lage en oversiktlig kalender, som gjør det lett
-            for vanlige folk å få orden, struktur og oversikt over kommende
-            tid.
+            Hvordan kan jeg lage en oversiktlig kalender, som gjør det lett for
+            vanlige folk å få orden, struktur og oversikt over kommende tid.
           </p>
           <h3 class="bold">Løsning</h3>
           <p>
-            Lage en app som er konsekvent i hvordan den opererer, bruker
-            farger til å få oversikt, er tilpassbar og er enkel å bruke.
+            Lage en app som er konsekvent i hvordan den opererer, bruker farger
+            til å få oversikt, er tilpassbar og er enkel å bruke.
           </p>
         </div>
       </div>
@@ -137,14 +151,16 @@
           </p>
           <p>
             I denne prosessdokumentasjonen kommer jeg bare til å bruke de tre
-            største (google calendar, apple calendar og FantastiCal) for simplisitetens
-            skyld. De andre kan du finne i
-            <a href="https://www.figma.com/file/m7bjk04DG7okYdQ8KEXx8v/Kalender?type=design">figma filen</a>.
+            største (google calendar, apple calendar og FantastiCal) for
+            simplisitetens skyld. De andre kan du finne i
+            <a
+              href="https://www.figma.com/file/m7bjk04DG7okYdQ8KEXx8v/Kalender?type=design"
+              >figma filen</a
+            >.
           </p>
         </div>
         <img src="./calendar-assets/innsikt.png" alt="" />
       </div>
-
 
       <div class="flex-component column-reverse hidden-from-right">
         <img src="./calendar-assets/interview.png" alt="" />
@@ -152,47 +168,44 @@
           <h4 class="bold">Intervju</h4>
           <p>
             Etter jeg hadde gjort dette gjorde jeg dybdeintervjuer. Dette var
-            for å avdekke om mine innsikter var reelle, samt å få en
-            forståelse om hva slags apper folk brukte for å strukturere dagene
-            side og hvordan de brukte dagens løsninger.
+            for å avdekke om mine innsikter var reelle, samt å få en forståelse
+            om hva slags apper folk brukte for å strukturere dagene side og
+            hvordan de brukte dagens løsninger.
           </p>
           <p>
-            For å gjøre dette brukertestet jeg enten Apple kalender eller
-            Google kalender. Her gikk oppgavene ut på å navigere seg litt
-            rundt i appen og lage hendelser.
+            For å gjøre dette brukertestet jeg enten Apple kalender eller Google
+            kalender. Her gikk oppgavene ut på å navigere seg litt rundt i appen
+            og lage hendelser.
           </p>
           <p>
             Her fikk jeg de fleste antakelser jeg hadde bekreftet. Apple sin
             kalender er derimot de som virkelig skapte følelser hos folk. Til
             tross for at dette var en app flere brukte daglig, var de fortsatt
-            usikkre på hvordan appen fungerte og mistet fort hvor de var. Tung
-            å bruke var også noe flere nevnte.
+            usikkre på hvordan appen fungerte og mistet fort hvor de var. Tung å
+            bruke var også noe flere nevnte.
           </p>
         </div>
       </div>
-
-
 
       <div class="flex-component column hidden-from-left">
         <div>
           <h4 class="bold">Personas</h4>
           <p>
             Til tross for at jeg har en målgruppe som kan treffe så og si alle
-            med en smarttelefon, så prøvde jeg å koke det ned til to grupper.
-            En “introvert” og en “ekstrovert”. Grunnen til dette var for å
-            prøve å finne grupper som kunne ha mye å putte inn i kalenderen
-            sin, en som trenger høy grad av organisering og oversikt. Hvor den
-            andre gruppen kanskje dette ikke er like viktig. Litt mindre å
-            gjøre, leter mer etter en vanlig enkel kalender app
+            med en smarttelefon, så prøvde jeg å koke det ned til to grupper. En
+            “introvert” og en “ekstrovert”. Grunnen til dette var for å prøve å
+            finne grupper som kunne ha mye å putte inn i kalenderen sin, en som
+            trenger høy grad av organisering og oversikt. Hvor den andre gruppen
+            kanskje dette ikke er like viktig. Litt mindre å gjøre, leter mer
+            etter en vanlig enkel kalender app
           </p>
           <p>
-            Jeg valgte å sette personaene i en simulert situasjon, som ikke er
-            å bruke min app, men bruker allerede eksisterende apper, da de to
-            mest brukte appene. Grunnen til dette var fordi jeg følte at det
-            var lite verdi i at de skulle bruke min app. Verdien for meg
-            ligger i å forstå best mulig frustrasjonene de kan oppleve nå. Det
-            er også en del i prosjektet jeg ikke har helt hamret ned
-            løsningen.
+            Jeg valgte å sette personaene i en simulert situasjon, som ikke er å
+            bruke min app, men bruker allerede eksisterende apper, da de to mest
+            brukte appene. Grunnen til dette var fordi jeg følte at det var lite
+            verdi i at de skulle bruke min app. Verdien for meg ligger i å
+            forstå best mulig frustrasjonene de kan oppleve nå. Det er også en
+            del i prosjektet jeg ikke har helt hamret ned løsningen.
           </p>
         </div>
         <img src="./calendar-assets/persona.png" alt="" />
@@ -208,16 +221,16 @@
           <h3 class="bold">Prototype</h3>
           <h4>Low-Fidelity</h4>
           <p>
-            Jeg ville lage en app som skulle føles dynamisk og levende. Jeg
-            tok inspirasjon fra en gammel konsept telefon (Project Ara) hvor
-            moduler av telefonen kunne byttes ut og widgets til iOS.
+            Jeg ville lage en app som skulle føles dynamisk og levende. Jeg tok
+            inspirasjon fra en gammel konsept telefon (Project Ara) hvor moduler
+            av telefonen kunne byttes ut og widgets til iOS.
           </p>
           <p>
             Tanken her var at alle seksjoner, moduler, bokser skal kunne endre
-            størrelser ut fra eget ønske. Eller om det er ting i prosessen ved
-            å lage en hendelse du ikke trenger eller vil ha, skal du kunne
-            fjerne dem, samt endre rekkefølge. Her skal det da være mulig å
-            sette opp sine egne templates.
+            størrelser ut fra eget ønske. Eller om det er ting i prosessen ved å
+            lage en hendelse du ikke trenger eller vil ha, skal du kunne fjerne
+            dem, samt endre rekkefølge. Her skal det da være mulig å sette opp
+            sine egne templates.
           </p>
         </div>
       </div>
@@ -229,8 +242,8 @@
             High-Fidelity prototypen er egentlig bare en litt mere rafinert
             versjon, jeg jobbet litt med farger og gjorde en finpuss. Jeg har
             endt opp med å bruke google sin fargepalett her i denne oppgaven,
-            men dette er ikke en representasjon for hva de endelige fargene
-            skal bli.
+            men dette er ikke en representasjon for hva de endelige fargene skal
+            bli.
           </p>
         </div>
         <img src="./calendar-assets/hifi.png" alt="" />
@@ -255,8 +268,8 @@
             <li class="list">gjøre den enkel å bruke</li>
           </ul>
           <p>
-            Dersom jeg av dekket at noe kom til å kræsje med disse punktene,
-            vil jeg endre de.
+            Dersom jeg av dekket at noe kom til å kræsje med disse punktene, vil
+            jeg endre de.
           </p>
         </div>
       </div>
@@ -280,9 +293,9 @@
             Tanken rundt funksjonen var at split view agenda delen skulle være
             statisk. Så for å se hva som skjedde de andre dagene, skulle man
             derfor klikke på dagen, så man fikk en popup. Dette var etter
-            tilbakemelding, noe jeg innså bare kom til å skape flere
-            problemer, enn løsninger. Derfor fjernet jeg hele funksjonen, så
-            gikk heller for en ikke statisk split view.
+            tilbakemelding, noe jeg innså bare kom til å skape flere problemer,
+            enn løsninger. Derfor fjernet jeg hele funksjonen, så gikk heller
+            for en ikke statisk split view.
           </p>
         </div>
         <img src="./calendar-assets/brukertest_2.png" alt="" />
@@ -299,8 +312,9 @@
           <h4>Low-Fidelity</h4>
           <p>
             Jeg skisset ned en veldig enkel versjon av nettsiden jeg skulle
-            lage. Jeg hadde ganske tidlig i prosessen tanker om hvordan jeg ville at nettsiden skulle bli. Jeg hadde
-            limitert med tid, så jeg ville gjøre den så enkel som mulig.
+            lage. Jeg hadde ganske tidlig i prosessen tanker om hvordan jeg
+            ville at nettsiden skulle bli. Jeg hadde limitert med tid, så jeg
+            ville gjøre den så enkel som mulig.
           </p>
         </div>
       </div>
@@ -314,11 +328,11 @@
             mye bedre frem når bilder og farger begynte å falle på plass.
           </p>
           <p>
-            Jeg prøvde å holde det enkelt, men tanken her var å få en slags
-            rød tåd som man skulle følge. Alle “linjer” skulle lede øynene
-            dine mot neste sted du skulle se. Jeg var litt usikker på om dette
-            var noe jeg kom til å få til i under utviklingsfasen. (Noe som
-            viste seg at jeg ikke klarte).
+            Jeg prøvde å holde det enkelt, men tanken her var å få en slags rød
+            tåd som man skulle følge. Alle “linjer” skulle lede øynene dine mot
+            neste sted du skulle se. Jeg var litt usikker på om dette var noe
+            jeg kom til å få til i under utviklingsfasen. (Noe som viste seg at
+            jeg ikke klarte).
           </p>
           <p>
             Jeg ble også sittende å jobbe litt med å prøve å lage en logo, noe
@@ -329,36 +343,34 @@
         <img src="./calendar-assets/hi-fi-web.png" alt="" />
       </div>
 
-
       <div class="flex-component column-reverse hidden-from-left">
         <img src="./calendar-assets/app-icons.png" alt="" />
         <div>
           <h4>App ikon / Logo</h4>
           <p>
-            Jeg bestemte meg for at jeg ønsket att løsningen min skulle ha en logo og ett app ikon.
+            Jeg bestemte meg for at jeg ønsket att løsningen min skulle ha en
+            logo og ett app ikon.
           </p>
           <p>
-            Dette var en prosess som var helt ny for meg, så prøvde meg litt frem med diverse ideer. Jeg prøvde først å
-            bare ta utgangspuntet i hva jeg allerede hadde i appen. som også var mitt originale ide for appen, nemmelig
-            "i dag" inne i appen.
+            Dette var en prosess som var helt ny for meg, så prøvde meg litt
+            frem med diverse ideer. Jeg prøvde først å bare ta utgangspuntet i
+            hva jeg allerede hadde i appen. som også var mitt originale ide for
+            appen, nemmelig "i dag" inne i appen.
           </p>
           <p>
-            Jeg ombestemte meg ganske fort ettersom jeg ville ha lik logo som app ikon, og denne ideen føltes ikke ut
-            som en logo, men mer ett app ikon. Så jeg prøvde meg litt frem og kom så til slutt med ett ikon som jeg
-            følte ville både være passende som logo og app ikon.
+            Jeg ombestemte meg ganske fort ettersom jeg ville ha lik logo som
+            app ikon, og denne ideen føltes ikke ut som en logo, men mer ett app
+            ikon. Så jeg prøvde meg litt frem og kom så til slutt med ett ikon
+            som jeg følte ville både være passende som logo og app ikon.
           </p>
         </div>
-
       </div>
-
 
       <div class="ancor">
         <div class="border"></div>
       </div>
 
-
       <div class="flex-component column hidden-from-right">
-
         <div>
           <h3 class="bold">Utvikling</h3>
           <p>
@@ -389,10 +401,15 @@
               <a href="https://github.com/mattis-str/VSCode-Tema-8">GitHub</a>
             </li>
             <li>
-              <a href="https://creative-sopapillas-0850e0.netlify.app/">Netlify</a>
+              <a href="https://creative-sopapillas-0850e0.netlify.app/"
+                >Netlify</a
+              >
             </li>
             <li>
-              <a href="https://www.figma.com/file/m7bjk04DG7okYdQ8KEXx8v/Kalender?type=design">Figma</a>
+              <a
+                href="https://www.figma.com/file/m7bjk04DG7okYdQ8KEXx8v/Kalender?type=design"
+                >Figma</a
+              >
             </li>
           </ul>
         </nav>
@@ -405,49 +422,54 @@
       <h3>Figma prototyper</h3>
       <div class="prototype-link">
         <a
-          href="https://www.figma.com/proto/m7bjk04DG7okYdQ8KEXx8v/Tema-8?page-id=0%3A1&type=design&node-id=1-2&viewport=332%2C127%2C0.06&t=21yfFRhRIpKOLezB-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design">Link
-          til app prototype</a>
+          href="https://www.figma.com/proto/m7bjk04DG7okYdQ8KEXx8v/Tema-8?page-id=0%3A1&type=design&node-id=1-2&viewport=332%2C127%2C0.06&t=21yfFRhRIpKOLezB-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design"
+          >Link til app prototype</a
+        >
         <a
-          href="https://www.figma.com/proto/m7bjk04DG7okYdQ8KEXx8v/Tema-8?page-id=551%3A8364&type=design&node-id=561-5646&viewport=96%2C299%2C0.15&t=cqbD7gFEzoaRwMcM-1&scaling=scale-down-width&starting-point-node-id=561%3A5646&mode=design">Link
-          til nettside prototype</a>
+          href="https://www.figma.com/proto/m7bjk04DG7okYdQ8KEXx8v/Tema-8?page-id=551%3A8364&type=design&node-id=561-5646&viewport=96%2C299%2C0.15&t=cqbD7gFEzoaRwMcM-1&scaling=scale-down-width&starting-point-node-id=561%3A5646&mode=design"
+          >Link til nettside prototype</a
+        >
       </div>
       <div class="embed">
-        <iframe width="100%" height="800"
+        <iframe
+          width="100%"
+          height="800"
           src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fm7bjk04DG7okYdQ8KEXx8v%2FTema-8%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2%26viewport%3D332%252C127%252C0.06%26t%3DCr3wwOmKT9ubtPJe-1%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2%26mode%3Ddesign"
-          allowfullscreen></iframe>
-        <iframe width="100%" height="800"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="100%"
+          height="800"
           src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fm7bjk04DG7okYdQ8KEXx8v%2FTema-8%3Fpage-id%3D551%253A8364%26type%3Ddesign%26node-id%3D561-5646%26viewport%3D96%252C299%252C0.15%26t%3DcqbD7gFEzoaRwMcM-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D561%253A5646%26mode%3Ddesign"
-          allowfullscreen></iframe>
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="ancor">
         <div class="border"></div>
       </div>
+    </main>
+    <footer>
+      <div class="footer-info">
+        <ul class="bold">
+          <li>E-Post</li>
+          <li>Telefon</li>
+        </ul>
+        <ul>
+          <a href="mailto:Mattis%20Strandbakke<mattis.stra@gmail.com>">
+            <li>mattis.stra@gmail.com</li>
+          </a>
 
-
-  </main>
-
-
-  <footer>
-    <div class="footer-info">
-      <ul class="bold">
-        <li>E-Post</li>
-        <li>Telefon</li>
-      </ul>
-      <ul>
-        <a href="mailto:Mattis%20Strandbakke<mattis.stra@gmail.com>">
-          <li>mattis.stra@gmail.com</li>
-        </a>
-
-        <li>+47 938 59 089</li>
-      </ul>
-      <div class="footer-img">
-        <a href="https://www.linkedin.com/in/mattis-str/" target="_blank">
-          <img src="./assets/linkedin.svg" alt="linkedin logo" /></a>
-        <a href="https://github.com/mattis-str" target="_blank">
-          <img src="./assets/github.svg" alt="github logo" /></a>
+          <li>+47 938 59 089</li>
+        </ul>
+        <div class="footer-img">
+          <a href="https://www.linkedin.com/in/mattis-str/" target="_blank">
+            <img src="./assets/linkedin.svg" alt="linkedin logo"
+          /></a>
+          <a href="https://github.com/mattis-str" target="_blank">
+            <img src="./assets/github.svg" alt="github logo"
+          /></a>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
