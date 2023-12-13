@@ -16,6 +16,10 @@ main {
   margin-top: 5rem;
 }
 
+.border-radius {
+  border-radius: 4rem 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -255,9 +259,39 @@ h3 {
   flex-direction: row-reverse;
 }
 
+.flex-component-2pic {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: var(--large-margin);
+} .flex-component-2pic img {
+/*   background-color: aqua; */
+  margin-bottom: var(--medium-margin);
+  width: 49%;
+  height: auto;
+}
+
+.flex-component-1pic {
+  display: flex;
+  margin-bottom: var(--large-margin);
+} .flex-component-1pic img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+/*   background-color: aqua; */
+} article p {
+margin-top: var(--gap-s);
+}
+
+.article {
+  width: 70%;
+  margin-bottom: var(--medium-margin);
+}
 
 .flex-component > img {
-  width: 50%;
+/*   background-color: aqua; */
+  width: 100%;
+  height: 100%;
   min-width: 50%;
   object-fit: contain;
 }
@@ -367,49 +401,6 @@ footer {
 }
 
 
-/* .contact-box {
-  display: flex;
-  width: 80%;
-  margin: 3rem auto;
-}
-.contact-left {
-  flex-basis: 60%;
-  padding: 3rem 4rem;
-  color: var(--accent);
-
-} .contact-right {
-  flex-basis: 40%;
-  padding: 3rem;
-  color: var(--accent);
-}
-
-.input-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-} .input-row .input-group {
-  flex-basis: 45%;
-} input {
-  border-radius: 1rem 0;
-  width: 100%;
-  border: 3px solid var(--accent);
-  padding: 0.6rem;
-  background: none;
-} textarea {
-  border-radius: 1rem 0;
-  width: 100%;
-  border: 3px solid var(--accent);
-  background: none;
-  padding: 0.7rem;
-  margin-bottom: 1rem;
-} label {
-  margin-bottom: 0.5rem;
-  display: block;
-  color: var(--accent);
-} ::placeholder {
-  color: var(--accent);
-} */
-
 
 
 /* small screens */
@@ -427,6 +418,10 @@ footer {
 
   .flex-component {
     gap: var(--gap-m);
+  }
+
+  .article {
+    width: 100%;
   }
 
 
@@ -447,6 +442,10 @@ footer {
   }
 
   .flex-component > img {
+    width: 100%;
+  }
+
+  .flex-component-2pic img {
     width: 100%;
   }
 
